@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home">
+        <menu>
+            <item
+                android:id="@+id/sobrePancs"
+                android:checked="true"
+                android:icon="@drawable/sobrePL"
+                android:title="Sobre as PANCS" />
+            <item
+                android:id="@+id/pratosPancs"
+                android:icon="@drawable/pratostipicosPL"
+                android:title="Pratos Típicos" />
+            <item
+                android:id="@+id/oportunidadesPancs"
+                android:icon="@drawable/oportunidadesPL"
+                android:title="SlideShow" />
+        </menu>
+    </item>
+</menu>
